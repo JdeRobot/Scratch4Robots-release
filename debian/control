@@ -1,0 +1,12 @@
+Source: ros-kinetic-scratch4robots
+Section: misc
+Priority: extra
+Maintainer: Santiago Carrion <carrionvs@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-rospy, ros-kinetic-rostest, ros-kinetic-rosunit
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-scratch4robots
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-rospy
+Description: scratch4robots
